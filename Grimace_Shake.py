@@ -19,7 +19,6 @@ def VRS():
     if weatherAlert == "snowy":
         print("\nNational Weather Service has updated our alarm be 30 minutes because of the forecast of", weatherAlert,
             "weather conditions.")
-
         print("VRS has been enganged only allowing you to drive 50mph")
     elif weatherAlert == "blizzard":
         print("\nNational Weather Service has updated our alarm be 45 minutes because of the forecast of", weatherAlert,
@@ -29,7 +28,7 @@ def VRS():
         print("\nNational Weather Service has updated our alarm be 10 minutes because of the forecast of", weatherAlert,
             "weather conditions.")
         print("VRS has been enganged only allowing you to drive 60mph")
-    
+
 
 
 
